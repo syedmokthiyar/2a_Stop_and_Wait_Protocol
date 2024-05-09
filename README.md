@@ -26,11 +26,11 @@ while True:
    continue
  else:
    c.close()
-   break
+   break
 ```
 # Server
 ```python
-   import socket
+import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
